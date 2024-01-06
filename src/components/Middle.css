@@ -1,0 +1,17 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.button {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: solid 1px black;
+}
+
+.button:hover {
+    box-shadow: 0 0 2px black;
+}

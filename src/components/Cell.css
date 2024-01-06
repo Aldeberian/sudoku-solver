@@ -1,0 +1,33 @@
+.container {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cell {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: x-large;
+}
+
+.classic {
+    border: 1px solid grey;
+}
+
+.cornerCell {
+    border: 1px solid grey;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.bottomCell {
+    border: 1px solid grey;
+    border-bottom: 3px solid black;
+}
+
+.rightCell {
+    border: 1px solid grey;
+    border-right: 3px solid black;
+}
